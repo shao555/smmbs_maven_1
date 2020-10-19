@@ -21,11 +21,16 @@
     </environments>
     <!--引入映射文件-->
     <mappers>
-        <mapper resource="mapper/Smbms_AddressMapper.xml"></mapper>
-        <mapper resource="mapper/Smbms_BillMapper.xml"></mapper>
-        <mapper resource="mapper/Smbms_ProviderMapper.xml"></mapper>
-        <mapper resource="mapper/Smbms_RoleMapper.xml"></mapper>
-        <mapper resource="mapper/Smbms_UserMapper.xml"></mapper>
+<!--        <mapper resource="mapper/Smbms_AddressMapper.xml"></mapper>-->
+<!--        <mapper resource="mapper/Smbms_BillMapper.xml"></mapper>-->
+<!--        <mapper resource="mapper/Smbms_ProviderMapper.xml"></mapper>-->
+<!--        <mapper resource="mapper/Smbms_RoleMapper.xml"></mapper>-->
+<!--        <mapper resource="mapper/Smbms_UserMapper.xml"></mapper>-->
+        <mapper class="com.cs.mapper.Smbms_AddressMapper"></mapper>
+        <mapper class="com.cs.mapper.Smbms_BillMapper"></mapper>
+        <mapper class="com.cs.mapper.Smbms_ProviderMapper"></mapper>
+        <mapper class="com.cs.mapper.Smbms_RoleMapper"></mapper>
+        <mapper class="com.cs.mapper.Smbms_UserMapper"></mapper>
     </mappers>
 
 

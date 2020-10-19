@@ -16,11 +16,11 @@ public class MybatisTest {
     public static void main(String[] args) throws Exception {
 
 //        findAddress(); //查询所有地址信息
-//        findBill(); //查询所有商品信息
+        findBill(); //查询所有商品信息
 //        findProvider(); //查询所有供应商信息
 //        findRole(); //查询所有商品信息
 
-        findUser(); //查询所有用户信息
+//        findUser(); //查询所有用户信息
 
     }
 
